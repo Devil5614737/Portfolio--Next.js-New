@@ -1,5 +1,8 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
+
+
 
 export const Hero = () => {
   return (
@@ -12,9 +15,12 @@ export const Hero = () => {
         and beautiful web applications through carefully crafted code and <br />{" "}
         user-centric design.
       </p>
-      <a
+      <motion.a
+      whileTap={{ scale: 0.8 }}
         href="#projects"
-        className="inlinle-block project-btn md:text-[3.1rem] 
+        className="inlinle-block 
+        cursor-pointer
+        project-btn md:text-[3.1rem] 
         text-[2rem]
         font-bold 
         bg-blue py-[18px] md:py-[23px] 
@@ -23,7 +29,7 @@ relative
 "
       >
         Projects
-      </a>
+      </motion.a>
       <Image
         width={200}
         height={100}

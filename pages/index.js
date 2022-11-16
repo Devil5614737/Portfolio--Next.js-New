@@ -8,9 +8,10 @@ import { Navbar } from "../components/Navbar";
 import { Projects } from "../components/Projects";
 import { Skills } from "../components/Skills";
 import { ArrowUpIcon } from "@heroicons/react/24/solid";
+import { useScroll,motion } from "framer-motion";
 
 function Home() {
-
+  const { scrollYProgress } = useScroll();
 
   useEffect(() => {
     const toTopBtn=document.querySelector('.to-top');
@@ -28,6 +29,10 @@ function Home() {
 
   return (
     <>
+    <motion.div
+    className="progress-bar"
+    style={{ scaleX: scrollYProgress }}
+    ></motion.div>
       <header className=" min-h-[70vh] w-[100vw]">
         <Navbar />
         <Hero />
@@ -54,13 +59,14 @@ function Home() {
       </main>
       <Footer />
       
-        <a
-       
+        <motion.a
+         whileTap={{ scale: 0.8 }}
+         whileHover={{ scale: 1.2 }}
           href="#hero"
-          className="transition-all hidden to-top border-2 border-black fixed top-[86%] right-10 bg-sky-blue p-4  rounded-[8px] cursor-pointer z-50"
+          className="hidden to-top border-2 border-black fixed top-[86%] right-10 bg-[#ff0055] p-4  rounded-[8px] cursor-pointer z-50"
         >
-          <ArrowUpIcon className="w-14 h-14" />
-        </a>
+          <ArrowUpIcon className="w-14 h-14 text-white" />
+        </motion.a>
 
     </>
   );
