@@ -8,7 +8,7 @@ export const Footer = () => {
     <Container>
         <div className="flex justify-between items-center">
             <div className="flex gap-x-[2rem]">
-                <a href="#!">
+                <a rel='noreferrer' target={'_blank'} href="https://www.linkedin.com/in/kaushik-sheel/">
                     <Image
                     src='/linkedin.svg'
                     width={30}
@@ -25,7 +25,7 @@ export const Footer = () => {
                     />
                 </a>
             </div>
-            <a href="#!" className='text-white flex items-center text-2xl gap-x-2'>
+            <a rel='noreferrer' href="https://github.com/Devil5614737" className='text-white flex items-center text-2xl gap-x-2'>
             <Image
                     src='/call.svg'
                     width={34}
