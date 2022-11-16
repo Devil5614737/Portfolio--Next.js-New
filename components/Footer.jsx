@@ -4,7 +4,7 @@ import {Container} from './Container';
 
 export const Footer = () => {
   return (
-<footer className='p-2 mt-[5rem] bg-black py-[6rem]'>
+<footer className='p-2  bg-black py-[6rem]'>
     <Container>
         <div className="flex justify-between items-center">
             <div className="flex gap-x-[2rem]">
