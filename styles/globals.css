@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: "Nunito",sans-serif;
+}
+
+
+li{
+  list-style-type: none;
+}
+a,input,button,textarea{
+  text-decoration: none;
+  color: inherit;
+  font: inherit;
+}
+
+
+
+/* Buttons */
+
+.project-btn::before{
+content:'';
+width: 100%;
+position: absolute;
+height: 100%;
+background-color: black;
+left: 10px;
+z-index: -1;
+top: 10px;
+border-radius: 8px;
+}
+
+.resume-btn::before{
+content:'';
+width: 100%;
+position: absolute;
+height: 100%;
+background-color: black;
+left: 10px;
+top: 10px;
+border-radius: 8px;
+z-index: -1;
+}
+.submit-btn::before{
+content:'';
+width: 100%;
+position: absolute;
+height: 100%;
+background-color: black;
+left: 10px;
+top: 10px;
+border-radius: 8px;
+z-index: -1;
+}
+.contact-btn::before{
+content:'';
+width: 100%;
+position: absolute;
+height: 100%;
+background-color: black;
+left: 8px;
+top: 8px;
+border-radius: 8px;
+z-index: -1;
+}
