@@ -5,7 +5,7 @@ import { Container } from './Container'
 
 export const Projects = () => {
   return (
-    <section className='p-2 mt-[25rem]'>
+    <section id='projects' className='p-2 mt-[25rem]'>
 <Container>
 <header>
     <h2 className='text-[3rem] font-bold mb-[.6rem]'>Projects</h2>

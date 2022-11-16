@@ -13,7 +13,7 @@ export const Hero = () => {
         user-centric design.
       </p>
       <a
-        href="#!"
+        href="#projects"
         className="inlinle-block project-btn md:text-[3.1rem] 
         text-[2rem]
         font-bold 

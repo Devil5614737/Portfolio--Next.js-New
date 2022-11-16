@@ -7,7 +7,7 @@ export const Card = () => {
         <Image
         width={400}
         height={400}
-        className=" border-4 border-black w-full h-[23rem] object-cover"
+        className=" border-2 border-black w-full h-[23rem] object-cover"
         src='https://images.unsplash.com/photo-1535882686-b1332af6f51e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbG9yZnVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
         alt='project thumbnail'
         />

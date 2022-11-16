@@ -3,7 +3,7 @@ import { Container } from './Container'
 
 export const Contact = () => {
   return (
-    <section  className='p-2 mt-[5rem] bg-blue relative z-[-1] py-[6rem]'>
+    <section id='contact'  className='p-2 mt-[5rem] bg-blue relative z-[-1] py-[6rem]'>
     <Container>
     <header>
 <h5 className='text-[3rem] font-bold mb-[.6rem]'>Contact</h5>

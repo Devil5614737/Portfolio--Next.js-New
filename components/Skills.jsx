@@ -5,7 +5,7 @@ import { Icon } from "./Icon";
 
 export const Skills = () => {
   return (
-    <section className="p-2 mt-[5rem]">
+    <section id='skills' className="p-2 mt-[5rem]">
       <Container>
         <header>
           <h3 className="text-[3rem] font-bold mb-[.6rem]">Skills</h3>
