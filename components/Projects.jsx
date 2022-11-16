@@ -13,10 +13,12 @@ export const Projects = () => {
 </header>
 
 <div className="projects mt-[5rem] grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
+    <Card title='Netflix Clone' src='/netflix clone 3.png' desc='Built with Next.js , Typescript, Firebase and Tailwind' tag='Clone' link='https://netflix-clone-next-js-2.vercel.app/login'/>
+    <Card title='FullStack Blog App' src='/fullstack-blog.png' desc='Built with Next.js ,Node.js ,MongoDb and Bootstrap' tag='Web app' link='https://blog-app-ashen-one.vercel.app/'/>
+    <Card title='Shopping Cart' src='/shopping cart.PNG' desc='A shopping cart built with React ,Typescript and Bootstrap' tag='Web app' link='https://shopping-cart-with-typescript-eta.vercel.app/'/>
+    <Card title='Todos App' src='/Todoapp2.png' desc='Built With React and Typescript' tag='Web app' link='https://todos-app-with-typescript-2.vercel.app/'/>
+    <Card title='Instagram Clone' src='/instagram.png' desc='Built with Reactjs, Firebase and Material UI' tag='Clone' link='https://instagram-clone-react-firebase.vercel.app/'/>
+  
 </div>
 
 </Container>

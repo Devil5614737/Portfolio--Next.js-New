@@ -16,7 +16,7 @@ export const Footer = () => {
                     alt='linkedin icon'
                     />
                 </a>
-                <a href="#!">
+                <a target={'_blank'} rel='noreferrer' href="https://github.com/Devil5614737">
                     <Image
                     src='/github.svg'
                     width={34}
@@ -25,7 +25,7 @@ export const Footer = () => {
                     />
                 </a>
             </div>
-            <a rel='noreferrer' href="https://github.com/Devil5614737" className='text-white flex items-center text-2xl gap-x-2'>
+            <a target={'_blank'} rel='noreferrer' href="https://github.com/Devil5614737" className='text-white flex items-center text-2xl gap-x-2'>
             <Image
                     src='/call.svg'
                     width={34}
