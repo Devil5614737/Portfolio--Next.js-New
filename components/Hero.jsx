@@ -29,6 +29,7 @@ relative
         height={100}
         className="md:w-[30rem]  absolute -top-[42px] right-0"
         src="/hero-style.svg"
+        alt='hero style svg'
       />
     </section>
   );

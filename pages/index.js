@@ -19,12 +19,14 @@ function Home() {
       height={100}
       className="hidden md:block md:w-[20rem]  absolute -bottom-[10rem] -left-20"
       src='/cross.svg'
+      alt='cross svg'
       />
     <Image
       width={100}
       height={100}
       className="hidden md:block md:w-[20rem]  absolute -bottom-[10rem] -right-20"
       src='/triangle.svg'
+      alt='triangle svg'
       />
   </header>
   <main>

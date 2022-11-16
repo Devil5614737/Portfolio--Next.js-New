@@ -13,6 +13,7 @@ export const Footer = () => {
                     src='/linkedin.svg'
                     width={30}
                     height={30}
+                    alt='linkedin icon'
                     />
                 </a>
                 <a href="#!">
@@ -20,6 +21,7 @@ export const Footer = () => {
                     src='/github.svg'
                     width={34}
                     height={34}
+                    alt='github icon'
                     />
                 </a>
             </div>
@@ -28,6 +30,7 @@ export const Footer = () => {
                     src='/call.svg'
                     width={34}
                     height={34}
+                    alt='call icon'
                     />
                     +917054557596
             </a>

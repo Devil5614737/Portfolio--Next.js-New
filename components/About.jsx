@@ -38,6 +38,7 @@ export const About = () => {
             height={400}
             className=" hidden md:block absolute bottom-0 -right-[25rem] w-[60rem] h-[53rem] object-cover"
             src="/about-style.svg"
+            alt='ring svg'
            
           />
     </section>
