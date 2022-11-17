@@ -12,7 +12,7 @@ export const Skills = () => {
           <p className="text-[1.8rem] text-[#5A5A5A]">Tools and Techs I know</p>
         </header>
 
-        <div className="skills mt-[5rem] grid grid-cols-4 gap-y-[4rem] md:grid-cols-5 md:gap-y-[60px] place-items-center">
+        <div className="skills mt-[5rem] grid grid-cols-3 gap-y-[4rem] md:grid-cols-5 md:gap-y-[60px] place-items-center">
       <Icon title='html' color='#FFCFCF' src='/html.svg'/>
       <Icon title='css' color='#CFBEFF' src='/css.svg'/>
       <Icon title='javascript' color='#EFFF8B' src='/javascript.svg'/>
