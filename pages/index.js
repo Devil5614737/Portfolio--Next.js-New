@@ -9,6 +9,7 @@ import { Projects } from "../components/Projects";
 import { Skills } from "../components/Skills";
 import { ArrowUpIcon } from "@heroicons/react/24/solid";
 import { useScroll,motion } from "framer-motion";
+import {HEAD} from '../components/Head';
 
 function Home() {
   const { scrollYProgress } = useScroll();
@@ -29,6 +30,7 @@ function Home() {
 
   return (
     <>
+    <HEAD/>
     <motion.div
     className="progress-bar"
     style={{ scaleX: scrollYProgress }}
