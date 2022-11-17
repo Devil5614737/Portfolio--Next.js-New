@@ -48,7 +48,7 @@ export const Contact = () => {
             required
             type="text"
             id="name"
-               name="name"
+            name="name"
             className="my-[8px] block w-full border-[3px] border-black rounded-[9px] h-[8.9rem] text-[2rem] p-3 mb-[2rem]"
           />
           <label htmlFor="email" className="text-[2.4rem] inlilne-block mt">
@@ -58,10 +58,14 @@ export const Contact = () => {
             required
             type="text"
             id="email"
-            name='email'
+            name="email"
             className="my-[8px] block w-full border-[3px] border-black rounded-[9px] h-[8.9rem] text-[2rem] p-3"
           />
-          <label name='message' htmlFor="message" className="text-[2.4rem] inlilne-block ">
+          <label
+            name="message"
+            htmlFor="message"
+            className="text-[2.4rem] inlilne-block "
+          >
             Message
           </label>
           <textarea
@@ -70,20 +74,19 @@ export const Contact = () => {
             id="message"
             className="my-[8px] block w-full border-[3px] border-black rounded-[9px] h-[17.9rem] text-[2rem] p-3 resize-none"
           />
-          <a
-    
-          onClick={sendEmail}
+          <button
+            onClick={sendEmail}
             href="#!"
             className="cursor-pointer relative submit-btn text-[2.4rem] font-bold bg-pink-secondary px-[5rem] py-[1rem] inline-block mt-5 rounded-[8px] border-[3px] border-black "
           >
             Submit
-          </a>
+          </button>
         </form>
-         <Toaster
+        <Toaster
           position="top-center"
           toastOptions={{
             duration: 1500,
-            fontSize:'1.5rem'
+            fontSize: "1.5rem",
           }}
         />
       </Container>

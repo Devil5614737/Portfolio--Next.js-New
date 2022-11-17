@@ -4,7 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
-export const Card = ({title,src,desc,tag,link}) => {
+export const Card = ({title,src,desc,tag,link,code}) => {
   const control = useAnimation()
   const [ref, inView] = useInView()
 
@@ -46,7 +46,7 @@ export const Card = ({title,src,desc,tag,link}) => {
             <p className='text-[1.4rem] text-[#353535] my-[8px]'>{desc}</p>
             <div className="mt-5 flex gap-x-4">
             <a rel='noreferrer' target='_blank' href={link} className='text-[1.4rem] font-[800] px-[30px] py-[11px] bg-blue rounded-[8px] border-[3px]   border-black  inline-block'>Demo</a>
-            <a rel='noreferrer' target='_blank' href={link} className='text-[1.4rem] font-[800] px-[30px] py-[11px] bg-[#ff0055] rounded-[8px] border-[3px]   border-black  inline-block text-white'>Code</a>
+            <a rel='noreferrer' target='_blank' href={code} className='text-[1.4rem] font-[800] px-[30px] py-[11px] bg-[#ff0055] rounded-[8px] border-[3px]   border-black  inline-block text-white'>Code</a>
             </div>
         </div>
     </motion.div>

@@ -27,13 +27,15 @@ export const Projects = () => {
             desc="Built with Next.js , Typescript, Firebase and Tailwind"
             tag="Clone"
             link="https://netflix-clone-next-js-2.vercel.app/login"
+            code='https://github.com/Devil5614737/Netflix-Clone-Next.js'
           />
           <Card
             title="FullStack Blog App"
-            src="/fullstack-blog.png"
+            src="/fullstack-blog.PNG"
             desc="Built with Next.js ,Node.js ,MongoDb and Bootstrap"
             tag="Web app"
             link="https://blog-app-ashen-one.vercel.app/"
+            code='https://github.com/Devil5614737/BlogApp'
           />
           <Card
             title="Shopping Cart"
@@ -41,20 +43,23 @@ export const Projects = () => {
             desc="A shopping cart built with React ,Typescript and Bootstrap"
             tag="Web app"
             link="https://shopping-cart-with-typescript-eta.vercel.app/"
+            code='https://github.com/Devil5614737/Shopping-Cart-with-typescript'
           />
           <Card
             title="Todos App"
-            src="/Todoapp2.png"
+            src="/Todoapp2.PNG"
             desc="Built With React and Typescript"
             tag="Web app"
             link="https://todos-app-with-typescript-2.vercel.app/"
+            code='https://github.com/Devil5614737/TodoAppWithTypescript2'
           />
           <Card
             title="Instagram Clone"
-            src="/instagram.png"
+            src="/instagram.PNG"
             desc="Built with Reactjs, Firebase and Material UI"
             tag="Clone"
             link="https://instagram-clone-react-firebase.vercel.app/"
+            code='https://github.com/Devil5614737/InstagramCloneReact-Firebase'
           />
         </div>
       </Container>
